@@ -32,20 +32,33 @@ body {
   font-family: Arial;
 }
 
-.parallax_layer-front h1 {
-  font-size: 150pt;
-}
-
 .parallax_layer-front h2 {
-  font-size: 80pt;
+  font-size: 50pt;
   padding-top: 60px;
+  font-family: "Lucida Console", Lucida, monospace;
 }
 
 .parallax_layer-front p {
   font-size: 20pt;
   padding-left: 50px;
   padding-right: 50px;
-  font-family: Courier;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.image-wrapper {
+  margin: 0 auto;
+}
+
+.image-wrapper .logo-wrapper {
+  max-width: 800px;
+}
+
+.image-wrapper .show-wrapper {
+  max-width: 1000px;
+}
+
+.image-wrapper img {
+  width: 100%;
 }
 
 .parallax_layer-back {
