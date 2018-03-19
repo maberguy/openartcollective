@@ -64,13 +64,18 @@ body {
 .parallax_layer-back {
   transform: translateZ(-5px) scale(6);
   z-index: 2;
-  height: 130%;
+  height: 210%;
   background-image: url("images/bg01.png");
 }
 
 .parallax_layer-back-back {
   transform: translateZ(-10px) scale(11);
   z-index: 3;
-  height: 125%;
+  height: 160%;
   background-image: url("images/bg02.png");
+}
+
+.social {
+  color: #fff;
+  padding: 20px;
 }
